@@ -1,6 +1,11 @@
 CHANGES
 =======
 
+* Jenkins: Update to warnings-ng
+* Jenkins: Reduce number of pipeline steps
+* Jenkins: Always use Debian buster as base
+* Jenkins: Use modern error handling
+* Jenkins: Turn windows build errors into warnings
 * Add new namer "joinPathPartsNamer"
 * Ignore flake8 warning W504
 * New comic: The Rock Cocks (#138)
@@ -47,12 +52,3 @@ CHANGES
 * Only support modern versions of PyCountry
 * Switch development wrapper to Python3
 * deathbulge fix
-* Replace online tests with mocks
-* Don't include cmd script in coverage
-* When testing the command line, call main method
-* Remove handlers after director run
-* Move checking of modules into its own directory
-* Move test dependencies into setup.cfg
-* realised we have a scraper for CMS MenageA3 uses
-* redoing MenageA3 with ParserScraper (previous search regex was broken)
-* add a comic plugin for CommitStrip
