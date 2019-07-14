@@ -20,6 +20,7 @@ pys.each { py ->
             stage("Prepare docker $py.name") {
                 dir('dockerbuild') {
                     deleteDir()
+                    docker.image(py.docker).pull()
                     buildDockerfile(py.docker)
                     image = docker.build("dosage-$py.docker")
                 }
@@ -98,7 +99,9 @@ def windowsBuild() {
 def windowsBuildCommands() {
     deleteDir()
     unstash 'bin'
-    docker.image('tobix/pywine').inside {
+    def img = docker.image('tobix/pywine')
+    img.pull()
+    img.inside {
         sh '''
             . /opt/mkuserwineprefix
             tar xvf dist/dosage-*.tar.gz
@@ -107,7 +110,7 @@ def windowsBuildCommands() {
                 wine py -m pip install -e .[css] &&
                 cd scripts &&
                 wine py -m PyInstaller -y dosage.spec;
-                wineserver -w" | tee log.txt
+                wineserver -w" 2>&1 | tee log.txt
         '''
         archiveArtifacts '*/scripts/dist/*'
     }

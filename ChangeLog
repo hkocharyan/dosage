@@ -1,6 +1,8 @@
 CHANGES
 =======
 
+* Jenkins: Add STDERR to console workaround
+* Jenkins: Make sure Docker images are fresh
 * Jenkins: Update to warnings-ng
 * Jenkins: Reduce number of pipeline steps
 * Jenkins: Always use Debian buster as base
@@ -51,4 +53,3 @@ CHANGES
 * Recreate SluggyFreelance module (fixes #96)
 * Only support modern versions of PyCountry
 * Switch development wrapper to Python3
-* deathbulge fix
