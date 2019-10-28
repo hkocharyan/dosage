@@ -1,6 +1,7 @@
 CHANGES
 =======
 
+* Fix missing returns in RSS parsing (#137)
 * Jenkins: Use modern coverage api
 * Test with Python 3.8 (and drop support for 3.4)
 * Jenkins: Add STDERR to console workaround
@@ -52,4 +53,3 @@ CHANGES
 * Update coverage badge
 * Switch from Coveralls to CodeCov
 * Some minor fixes to make some modules work again
-* Recreate SluggyFreelance module (fixes #96)
