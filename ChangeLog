@@ -1,6 +1,8 @@
 CHANGES
 =======
 
+* Jenkins: Use modern coverage api
+* Test with Python 3.8 (and drop support for 3.4)
 * Jenkins: Add STDERR to console workaround
 * Jenkins: Make sure Docker images are fresh
 * Jenkins: Update to warnings-ng
@@ -51,5 +53,3 @@ CHANGES
 * Switch from Coveralls to CodeCov
 * Some minor fixes to make some modules work again
 * Recreate SluggyFreelance module (fixes #96)
-* Only support modern versions of PyCountry
-* Switch development wrapper to Python3
