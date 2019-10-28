@@ -1,6 +1,7 @@
 CHANGES
 =======
 
+* Add test for recently added helper
 * Fix missing returns in RSS parsing (#137)
 * Jenkins: Use modern coverage api
 * Test with Python 3.8 (and drop support for 3.4)
@@ -52,4 +53,3 @@ CHANGES
 * Drop Python 3.3, since py.test doesn't support it anymore
 * Update coverage badge
 * Switch from Coveralls to CodeCov
-* Some minor fixes to make some modules work again
