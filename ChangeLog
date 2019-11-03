@@ -1,6 +1,48 @@
 CHANGES
 =======
 
+* Fix a bunch of flake8 issues
+* Add Evon
+* Add Guardia
+* Add YouSayItFirst
+* Add NicoleAndDerek
+* Add UnlikeMinerva
+* Add HavocInc
+* Add Dissonance
+* Add OutOfPlacers
+* Add PlushAndBlood
+* Add WhiteNoiseLee
+* Add Savestate
+* Add NotAVillain
+* Add SmackJeeves/FurryExperience
+* Add CrimsonFlag
+* Add Supercell
+* Add CollegeCatastrophe
+* Add NineToNine
+* Add SwordsAndSausages
+* Add SuburbanJungleRoughHousing
+* Add SuburbanJungle
+* Add ButImACatPerson
+* Add OrderOfTheBlackDog
+* Add ATaleOfTails
+* Add Dreamkeepers
+* Add CarryOn
+* Add CavesAndCritters
+* Add IslaAukate and IslaAukateColor
+* Add Kaerwyn and BlackTapestries
+* Add Housepets
+* Add HowToBeAWerewolf
+* Switch AGirlAndHerFed to parser scraper
+* Fix TheWhiteboard
+* Fix DominicDeegan
+* Fix GrrlPower
+* Add SSDD
+* Fix SabrinaOnline
+* Add OriginalLife
+* Switch BetterDays to parser scraper
+* Fix Curtailed
+* Add first strip URL for PS238
+* Fix SlightlyDamned
 * Simplify voting code
 * Make sure user agent is in all HTTP requests
 * Add test for recently added helper
@@ -9,47 +51,3 @@ CHANGES
 * Test with Python 3.8 (and drop support for 3.4)
 * Jenkins: Add STDERR to console workaround
 * Jenkins: Make sure Docker images are fresh
-* Jenkins: Update to warnings-ng
-* Jenkins: Reduce number of pipeline steps
-* Jenkins: Always use Debian buster as base
-* Jenkins: Use modern error handling
-* Jenkins: Turn windows build errors into warnings
-* Add new namer "joinPathPartsNamer"
-* Ignore flake8 warning W504
-* New comic: The Rock Cocks (#138)
-* Fix Gunnerkrigg Court prevSearch matcher (#135)
-* Fix Girls with Slingshots matchers (#136)
-* [travis] Remove files which confuse staticsite
-* Remove pbr from runtime
-* Fix multiple imgs for json flag & ZenPencils bouncer (#133)
-* Restore manual changelog
-* Added support for Tripping Over You comic (#130)
-* minor spelling and grammar errors (#126)
-* Repair loader for PyInstaller 3.4
-* Fix coverage collection in tox
-* Remove pytest-xdist in CI builds
-* Add CI build for Python 3.7
-* added MonkeyUser
-* Update for new LookingForGroup site format (#123)
-* Update for ElGoonishShive and ElGoonishShiveNP (#122)
-* Fix (and simplify) GoComics expressions (fixes #117)
-* Kenneth Reitz’s Code Style™
-* [travis] libjpeg-dev is installed by default
-* Enable warnings and fix some of them
-* Add windows build to Jenkinsfile
-* Move Jenkins pipeline from Jenkins to repository
-* MenageA3 naming fix
-* LifeAintNoPontFarm added
-* CyanideAndHappiness fix
-* Handle get\_terminal\_size() returning 0 (fixes #106)
-* GoComics no longer has nav on the comic's home page
-* Use a diferent div class for GoComics (fixes #102)
-* Only deploy website once
-* Add Travis-CI deploy script
-* Add StaticSite config and theme
-* Update copyright year
-* Don't span more than 4 threads (because Travis-CI ;))
-* Enable branch coverage (and newer tox features)
-* Update LeastICouldDo (fixes #99)
-* Supported Python versions: 2.7, 3.4, 3.5, 3.6
-* Drop Python 3.3, since py.test doesn't support it anymore
