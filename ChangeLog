@@ -1,6 +1,8 @@
 CHANGES
 =======
 
+* Simplify voting code
+* Make sure user agent is in all HTTP requests
 * Add test for recently added helper
 * Fix missing returns in RSS parsing (#137)
 * Jenkins: Use modern coverage api
@@ -51,5 +53,3 @@ CHANGES
 * Update LeastICouldDo (fixes #99)
 * Supported Python versions: 2.7, 3.4, 3.5, 3.6
 * Drop Python 3.3, since py.test doesn't support it anymore
-* Update coverage badge
-* Switch from Coveralls to CodeCov
